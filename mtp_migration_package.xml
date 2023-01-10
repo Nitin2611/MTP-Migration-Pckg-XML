@@ -22,6 +22,7 @@
         <members>Contact.IsTrainee__c</members>
         <members>Contact.ContactType__c</members>
         <members>Contact.Team__c</members>
+        
         <name>CustomField</name>
     </types>
 
