@@ -14,11 +14,12 @@
         <members>Team__c</members>
         <members>Timesheet__c</members>
         <members>Timesheet_Detail__c</members>
+        <members>Candidate_Availability__c</members>
         <name>CustomObject</name>
     </types>
 
     <types>
-        <members>Contact.ContactType__c</members>
+        <members>Contact.Enable_Community_User__c</members>
         <members>Contact.IsTrainee__c</members>
         <members>Contact.ContactType__c</members>
         <members>Contact.Team__c</members>
@@ -230,7 +231,7 @@
         <members>mtpcss</members>
         <members>mtpjs</members>
         <members>mvfavicon</members>
-        <members>MVLogo</members>
+        <members>mtp_MVLogo</members>
         <members>MVTrainee</members>
         <members>pageNotFound</members>
         <members>rwdImageMapJs</members>
@@ -245,8 +246,6 @@
     </types>
 
     <types>
-        <members>mtp_CoursePage1</members>
-        <members>mtp_CoursePage2</members>
         <members>mtp_Email</members>
         <members>mtp_EmailCmp</members>
         <members>mtp_EmailInpCmp</members>
@@ -256,7 +255,6 @@
         <members>mtp_LeavePage</members>
         <members>mtp_Leave_Page</members>
         <members>mtp_SignIn</members>
-        <members>mtp_TaskPage</members>
         <members>mtp_Timesheet</members>
         <members>mtp_Timesheet_s2</members>
         <members>mtp_ToastMessage</members>
@@ -280,18 +278,11 @@
         <members>loginForm</members>
         <members>selfRegister</members>
         <members>forgotPassword</members>
-        <members>mtp_header</members>
-        <members>HomePageApp</members>
-        <members>mtp_Error_Page_App</members>
-        <members>mtp_CoursePage1App</members>
-        <members>mtp_TimesheetAPP</members>
-        <members>mtp_LeavePageApp</members>
-        <members>mtp_headerApp</members>    
+        <members>mtp_header</members>    
         <name>AuraDefinitionBundle</name>
     </types>
 
     <types>
-        <members>UnderConstructionPage</members>
         <members>ChangePassword</members>
         <members>ForgotPassword</members>
         <members>SiteLogin</members>
@@ -308,13 +299,7 @@
         <members>CommunitiesLanding</members>
         <members>CommunitiesSelfReg</members>
         <members>CommunitiesSelfRegConfirm</members>
-        <members>MicrobatchSelfReg</members>
         <members>InMaintenance</members>
-        <members>Unauthorized</members>
-        <members>UnderConstruction</members>
-        <members>IdeasHome</members>
-        <members>AnswersHome</members>
-        <members>CommunitiesTemplate</members>
         <members>mtp_LeavePageVF</members>
         <name>ApexPage</name>
     </types>
@@ -376,13 +361,10 @@
         <members>Trainee Portal Login</members>
         <members>Admin</members>
         <members>Customer Community Login User</members>
-        <members>Customer Community Plus User</members>
         <name>Profile</name>
     </types>
 
     <types>
-        <members>unfiled$public/Embed_a_Survey_Link</members>
-        <members>unfiled$public/Embed_a_Survey_Question</members>
         <members>unfiled$public/CommunityChangePasswordEmailTemplate</members>
         <members>unfiled$public/CommunityDeviceActEmailTemplate</members>
         <members>unfiled$public/CommunityForgotPasswordEmailTemplate</members>
