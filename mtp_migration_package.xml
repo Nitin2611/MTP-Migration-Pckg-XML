@@ -374,7 +374,7 @@
         <members>Trainee Portal Profile</members>
         <members>mtp community user</members>
         <members>Trainee Portal Login</members>
-        <members>System Administrator</members>
+        <members>Admin</members>
         <members>Customer Community Login User</members>
         <members>Customer Community Plus User</members>
         <name>Profile</name>
@@ -408,6 +408,18 @@
         <name>EmailTemplate</name>
     </types>
 
+    <types>
+        <members>Trainee_Portal</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+        <members>Trainee Portal</members>
+        <name>Network</name>
+    </types>
+    <types>
+        <members>Trainee_Portal1</members>
+        <name>SiteDotCom</name>
+    </types>
 
     
     <version>55.0</version>
