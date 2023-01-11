@@ -23,6 +23,11 @@
         <members>Contact.ContactType__c</members>
         <members>Contact.Team__c</members>
 
+
+
+
+
+
         <members>Candidate_Availability__c.Id</members>
         <members>Candidate_Availability__c.IsDeleted</members>
         <members>Candidate_Availability__c.Name</members>
@@ -429,6 +434,35 @@
         <members>Customer Community Plus User</members>
         <name>Profile</name>
     </types>
+
+    <types>
+        <members>Embed_a_Survey_Link</members>
+        <members>Embed_a_Survey_Question</members>
+        <members>CommunityChangePasswordEmailTemplate</members>
+        <members>CommunityDeviceActEmailTemplate</members>
+        <members>CommunityForgotPasswordEmailTemplate</members>
+        <members>CommunityChgEmailVerNewTemplate</members>
+        <members>CommunityWelcomeEmailTemplate</members>
+        <members>CommunityChgEmailVerOldTemplate</members>
+        <members>CommunityVerificationEmailTemplate</members>
+        <members>ExperienceCloudSelfRegMicroBatchSubErrorEmailTemplate</members>
+        <members>CommunityLockoutEmailTemplate</members>
+        <members>MarketingProductInquiryResponse</members>
+        <members>SalesNewCustomerEmail</members>
+        <members>SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
+        <members>SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
+        <members>SUPPORTSelfServiceResetPasswordSAMPLE</members>
+        <members>SupportCaseAssignmentNotification</members>
+        <members>SupportCaseCreatedPhoneInquiries</members>
+        <members>SupportCaseCreatedWebInquiries</members>
+        <members>SupportCaseResponse</members>
+        <members>SupportEscalatedCaseNotification</members>
+        <members>SupportEscalatedCaseReassignment</members>
+        <members>SupportSelfServiceNewLoginandPassword</members>
+        <members>SupportSelfServiceResetPassword</members>
+        <name>EmailTemplate</name>
+    </types>
+
 
     
     <version>55.0</version>
