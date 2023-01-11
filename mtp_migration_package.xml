@@ -408,6 +408,18 @@
         <name>EmailTemplate</name>
     </types>
 
+    <types>
+        <members>Trainee_Portal</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+        <members>Trainee Portal</members>
+        <name>Network</name>
+    </types>
+    <types>
+        <members>Trainee_Portal1</members>
+        <name>SiteDotCom</name>
+    </types>
 
     
     <version>55.0</version>
