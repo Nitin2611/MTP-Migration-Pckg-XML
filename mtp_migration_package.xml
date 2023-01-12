@@ -76,70 +76,35 @@
         <members>Contact.Enable_Community_User__c</members>
         <members>Contact.IsTrainee__c</members>
         <members>Contact.Team__c</members>
-        <members>Event__c.CreatedById</members>
-        <members>Event__c.CreatedDate</members>
-        <members>Event__c.LastModifiedById</members>
-        <members>Event__c.LastModifiedDate</members>
-        <members>Event__c.Name</members>
-        <members>Event__c.SystemModstamp</members>
+        
         <members>Leave__c.Contact_Trainee__c</members>
-        <members>Leave__c.CreatedById</members>
-        <members>Leave__c.CreatedDate</members>
         <members>Leave__c.Day__c</members>
         <members>Leave__c.End_Date__c</members>
-        <members>Leave__c.LastModifiedById</members>
-        <members>Leave__c.LastModifiedDate</members>
-        <members>Leave__c.LastReferencedDate</members>
-        <members>Leave__c.LastViewedDate</members>
         <members>Leave__c.Mentor__c</members>
-        <members>Leave__c.Name</members>
         <members>Leave__c.Reason__c</members>
         <members>Leave__c.Start_Date__c</members>
         <members>Leave__c.Status__c</members>
-        <members>Leave__c.SystemModstamp</members>
         <members>Team__c.Contact__c</members>
-        <members>Team__c.CreatedById</members>
-        <members>Team__c.CreatedDate</members>
-        <members>Team__c.LastModifiedById</members>
-        <members>Team__c.LastModifiedDate</members>
-        <members>Team__c.LastReferencedDate</members>
-        <members>Team__c.LastViewedDate</members>
         <members>Team__c.Lead_Email__c</members>
         <members>Team__c.Lead_Name__c</members>
-        <members>Team__c.Name</members>
-        <members>Team__c.SystemModstamp</members>
+
         <members>Timesheet_Detail__c.Comments__c</members>
-        <members>Timesheet_Detail__c.CreatedById</members>
-        <members>Timesheet_Detail__c.CreatedDate</members>
         <members>Timesheet_Detail__c.Date__c</members>
         <members>Timesheet_Detail__c.End_Time__c</members>
         <members>Timesheet_Detail__c.Hours__c</members>
-        <members>Timesheet_Detail__c.LastModifiedById</members>
-        <members>Timesheet_Detail__c.LastModifiedDate</members>
-        <members>Timesheet_Detail__c.LastReferencedDate</members>
-        <members>Timesheet_Detail__c.LastViewedDate</members>
-        <members>Timesheet_Detail__c.Name</members>
         <members>Timesheet_Detail__c.Rejected_Reason__c</members>
         <members>Timesheet_Detail__c.Start_Time__c</members>
         <members>Timesheet_Detail__c.Status__c</members>
-        <members>Timesheet_Detail__c.SystemModstamp</members>
         <members>Timesheet_Detail__c.Task_Description__c</members>
         <members>Timesheet_Detail__c.Task_Name__c</members>
         <members>Timesheet_Detail__c.Timesheet__c</members>
+
         <members>Timesheet__c.Comment__c</members>
         <members>Timesheet__c.Contact__c</members>
-        <members>Timesheet__c.CreatedById</members>
-        <members>Timesheet__c.CreatedDate</members>
         <members>Timesheet__c.Daily_Status__c</members>
         <members>Timesheet__c.Date__c</members>
-        <members>Timesheet__c.LastModifiedById</members>
-        <members>Timesheet__c.LastModifiedDate</members>
-        <members>Timesheet__c.LastReferencedDate</members>
-        <members>Timesheet__c.LastViewedDate</members>
-        <members>Timesheet__c.Name</members>
         <members>Timesheet__c.Status_Updated_By__c</members>
         <members>Timesheet__c.Status__c</members>
-        <members>Timesheet__c.SystemModstamp</members>
         <members>Timesheet__c.Team__c</members>
         <name>CustomField</name>
     </types>
@@ -207,10 +172,14 @@
         <name>Network</name>
     </types>
     <types>
+        <members>Experience_Profile_Manager</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
         <members>Admin</members>
         <members>Customer Community Login User</members>
         <members>Trainee Portal Login</members>
-        <members>Trainee Portal Profile</members>
+        <!-- <members>Trainee Portal Profile</members> -->
         <members>mtp community user</members>
         <name>Profile</name>
     </types>
